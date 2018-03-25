@@ -1,6 +1,6 @@
 version: '2.1'
 services:
-  proxy:
+  academy-proxy:
     build:
       context: .
       dockerfile: nginx/Dockerfile
