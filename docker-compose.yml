@@ -1,9 +1,7 @@
 version: '2.1'
 services:
   academy-proxy:
-    build:
-      context: .
-      dockerfile: nginx/Dockerfile
+    build: ./nginx
     depends_on:
       - academy-api
     ports:
